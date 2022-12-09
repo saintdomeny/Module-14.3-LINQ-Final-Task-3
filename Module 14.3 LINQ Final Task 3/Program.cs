@@ -30,7 +30,7 @@
                     var sortedContacts = phoneBook//сортировка
                        .OrderBy(s => s.Name)
                        .ThenBy(s => s.LastName);
-
+                        //.ThenBy(s => s.Email);
                     //  переменная для хранения запроса в зависимости от введенного с консоли числа
                     IEnumerable<Contact> page = null;
 
